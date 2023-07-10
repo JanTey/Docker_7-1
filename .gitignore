@@ -39,3 +39,8 @@ out/
 *.zip
 *.tar.gz
 *.rar
+
+### Exclusions ###
+gradle/*
+/src/main/**
+/src/test/**
