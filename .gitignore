@@ -2,7 +2,6 @@ Thumbs.db*
 .DS_Store
 HELP.md
 .gradle
-gradle/
 build/
 
 ### STS ###
@@ -41,6 +40,6 @@ out/
 *.rar
 
 ### Exclusions ###
-gradle/*
-/src/main/**
-/src/test/**
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**
+!**/src/test/**
